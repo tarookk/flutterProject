@@ -18,6 +18,7 @@ class BMICalculatorApp extends StatelessWidget {
 }
 
 class BMICalculatorScreen extends StatelessWidget {
+  //684
   final ValueNotifier<int> height = ValueNotifier<int>(174);
   final ValueNotifier<int> weight = ValueNotifier<int>(60);
   final ValueNotifier<int> age = ValueNotifier<int>(29);
@@ -44,7 +45,7 @@ class BMICalculatorScreen extends StatelessWidget {
               ],
             ),
           ),
-        
+
           Expanded(
             child: Container(
               margin: EdgeInsets.all(15.0),
@@ -99,18 +100,16 @@ class BMICalculatorScreen extends StatelessWidget {
               ),
             ),
           ),
-         
+
           Expanded(
             child: Row(
               children: [
-               
                 Expanded(
                   child: CounterCard(
                     label: 'WEIGHT',
                     valueNotifier: weight,
                   ),
                 ),
-             
                 Expanded(
                   child: CounterCard(
                     label: 'AGE',
@@ -120,37 +119,17 @@ class BMICalculatorScreen extends StatelessWidget {
               ],
             ),
           ),
-         
-         Container(
-        width: double.infinity,
-        height: 80,
-        color: Color(0xFFEB1555),
-        child: 
-        Text('CALUATE')
-         
-         )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          Container(
+              width: double.infinity,
+              height: 80,
+              color: Color(0xFFEB1555),
+              child: Text('CALUATE'))
         ],
       ),
     );
   }
 }
-
 
 class GenderCard extends StatelessWidget {
   final IconData icon;
@@ -183,7 +162,6 @@ class GenderCard extends StatelessWidget {
     );
   }
 }
-
 
 class CounterCard extends StatelessWidget {
   final String label;
