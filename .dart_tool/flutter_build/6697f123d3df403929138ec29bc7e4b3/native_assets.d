@@ -1,0 +1,1 @@
+ C:\\Users\\Tarek\\Documents\\desion\\desion_project\\.dart_tool\\flutter_build\\6697f123d3df403929138ec29bc7e4b3\\native_assets.yaml: 
